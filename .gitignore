@@ -1,5 +1,10 @@
 # Obsidian特定文件
+# 核心配置目录（完全排除）
 .obsidian/
+# 工作区文件（如果需要同步，可以删除以下两行）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+# 日志文件
 *.log
 .DS_Store
 Thumbs.db
