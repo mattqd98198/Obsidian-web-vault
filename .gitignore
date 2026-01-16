@@ -1,0 +1,103 @@
+# Obsidian特定文件
+.obsidian/
+*.log
+.DS_Store
+Thumbs.db
+
+# 编辑器缓存
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+desktop.ini
+*.tmp
+*.temp
+
+# 备份文件
+*.bak
+*.backup
+
+# 大文件（根据需要调整）
+*.exe
+*.dmg
+*.pkg
+*.msi
+*.deb
+*.rpm
+*.app
+*.apk
+*.ipa
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# 媒体文件（可选）
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# 音频文件（可选）
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+
+# 图片文件（可选）
+*.psd
+*.ai
+*.eps
+*.tiff
+*.raw
+*.cr2
+*.nef
+*.orf
+
+# 开发文件
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 构建产物
+dist/
+build/
+out/
+
+# 测试文件
+coverage/
+.nyc_output/
+
+# 数据库文件
+*.db
+*.sqlite
+*.db3
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+
+# 笔记软件特定
+.rocksdb/
+*.ldb
+
+# 快照文件
+*.snapshot
+
+# 备份目录
+backups/
+backup/
